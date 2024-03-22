@@ -15,6 +15,8 @@ Here's a step-by-step guide for your Python code, formatted in Markdown. This gu
 8. **Visualization**: Visualizes the original STL, the bounding boxes, extreme points, and the local coordinate system in a VTK render window. 
 9. Pictures are also taken to see the Top, Side and Back view of the generated render window.
 
+![alt text](https://github.com/AndyDunkelHell/vertebraeLocalCoordinates/edit/main/vretebc2_back.png?raw=true)
+
 ---
 
 # Guide to Generating a Local Coordinate System on a Vertebrae STL File using VTK
