@@ -22,7 +22,7 @@ Here's a step-by-step guide for your Python code, formatted in Markdown. This gu
 This Python script utilizes the Visualization Toolkit (VTK) and other libraries to generate a local coordinate system for STL files, particularly those representing vertebrae. The process involves reading the STL file, creating a bounding box, finding extreme points, segmenting the anterior part of the STL, extracting surface points, and ultimately determining the local coordinate system.
 
 ## Dependencies
-- `vtk`: For 3D computer graphics, image processing, and visualization.
+- `vtk`: For 3D computer graphics, image processing, and visualization. Versin 9.3.0
 - `numpy`: For numerical operations.
 - `sklearn.decomposition`: Specifically, PCA (Principal Component Analysis) for dimensionality reduction tasks.
 
