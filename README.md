@@ -13,9 +13,7 @@ Here's a step-by-step guide for your Python code, formatted in Markdown. This gu
 6. **Normal Calculation Using PCA**: Determines the normal to the surface best fitting the extracted points.
 7. **Line Actors Creation**: Creates line actors to represent the local coordinate system's axes. It first uses the Normal calculated in step 6 and then the other two axis are generated using the calculate_perpendicular_axis function to be visualized in the same way. 
 8. **Visualization**: Visualizes the original STL, the bounding boxes, extreme points, and the local coordinate system in a VTK render window. 
-9. Pictures are also taken to see the Top, Side and Back view of the generated render window.
-
-![alt text](https://github.com/AndyDunkelHell/vertebraeLocalCoordinates/edit/main/vretebc2_back.png?raw=true)
+9. Pictures are also taken to see the Top, Side and Back view of the generated render window. [`Back View`](Bvretebc2_back.png),  [`Side view`](Bvretebc2_side.png),  [`Front View`](Bvretebc2_top.png).
 
 ---
 
