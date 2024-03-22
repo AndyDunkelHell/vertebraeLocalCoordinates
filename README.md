@@ -5,7 +5,7 @@ Here's a step-by-step guide for your Python code, formatted in Markdown. This gu
 
 ## Main Execution Flow
 
-1. **Read STL File**: The STL file is loaded into polydata.
+1. **Read STL File**: The STL file is loaded into polydata. In this case as an example this vertebrae from Thingiverse was used (https://www.thingiverse.com/thing:2660874)
 2. **Bounding Box Creation**: A bounding box is created around the entire STL polydata.
 3. **Extreme Points Identification**: Identifies the most anterior, posterior, superior, inferior, lateral left, and right points. These points are then color coded and visualized using the respective function. Here it is important to note that the points represent the closest points from the STL to the Bounds from the bounding box. 
 4. **Anterior Segmentation**: Segments the anterior part of the STL for further analysis. This is done using opposing extreme points calculated in the aforementioned step. The distance between these points is calculated and then a threshold (in this case 25%) is taken to essentially cut and segment the STL to the desired zone. 
