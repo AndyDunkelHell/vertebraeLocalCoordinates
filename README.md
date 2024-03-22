@@ -1,8 +1,6 @@
 # Vertebrae local coordinate system generator
 Python Code to Generate a Local Coordinate System on an STL file from a Vertebrae using the VTK Library
 
-Here's a step-by-step guide for your Python code, formatted in Markdown. This guide explains how the code works for generating a local coordinate system on an STL file from a vertebrae using the VTK library.
-
 ## Main Execution Flow
 
 1. **Read STL File**: The STL file is loaded into polydata. In this case as an example this vertebrae from Thingiverse was used (https://www.thingiverse.com/thing:2660874)
