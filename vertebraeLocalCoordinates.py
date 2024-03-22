@@ -1,4 +1,4 @@
-# Code to Generate a Local Coordinate System on an STL file from a Vertebrae using the VTK Library
+# Code to Generate a Local Coordinate System on an STL file from a Vertebrae using the VTK Library (VTK 9.3.0)
 # Andres Gonzalez 2024
 
 import vtk
